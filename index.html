@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio via Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">
+            <div class="logo-top">HA</div>
+        </a>
+        <nav class="container">
+            <ul id="menuList" class="hidden">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+            <div id="menuIcon" class="menu-icon"><i data-feather="menu"></i></div>           
+        </nav>
+    </header>
+    <section class="Home" id="home">
+        <div class="hero-container">
+            <h3>HALO SEMUA🙌, SAYA</h3>
+            <h1>HABIB ABDUL WAHHAB</h1>
+            <div class="profil-icon">
+                <a href="https://www.facebook.com/profile.php?id=100009780390728&locale=id_ID" target="_blank"><i data-feather="facebook"></i></a>
+                <a href="https://www.instagram.com/habib_fs_23/" target="_blank"><i data-feather="instagram"></i></a>
+                <a href="https://www.linkedin.com/in/habib-abdul-wahhab-a39091285/" target="_blank"><i data-feather="linkedin"></i></a>
+                <a href="https://github.com/habibFS" target="_blank"><i data-feather="github"></i></a>
+            </div>
+        </div>
+        <div class="profil">
+            <img src="img/WhatsApp_Image_2024-07-10_at_08.49.37-removebg-preview.png" alt="Profile Picture">
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Saya adalah mahasiswa Teknik Mekatronika dengan pengalaman luas dalam berbagai teknologi, khususnya dalam bidang mekatronika. Saya memiliki semangat yang tinggi dalam merancang dan mengembangkan sistem yang menggabungkan mekanik, elektronika, dan pemrograman untuk menciptakan solusi yang inovatif. Saya selalu termotivasi untuk mempelajari teknologi baru dan menghadapi tantangan baru, serta berkomitmen untuk terus berkembang dan memberikan kontribusi terbaik dalam setiap proyek yang saya kerjakan.</p>
+    </section>
+    <section id="experience" class="skill">
+        <h2>My Experience</h2>
+        <div class="skills">
+            <div>
+                <h3>Programming Languages</h3>
+                <p>Pengalaman menggunakan bahasa pemrograman seperti C++, untuk menggerakkan  mikrokontroler</p>
+            </div>
+            <div>
+                <h3>Microcontroller</h3>
+                <p>Penguasaan dalam menggunakan mikrokontroler seperti Arduino, ESP32 dan PLC. Berpengalaman dalam merancang dan mengimplementasikan sistem tertanam untuk berbagai aplikasi.</p>
+            </div>
+            <div>
+                <h3>CAD Design</h3>
+                <p>Kompeten dalam menggunakan perangkat lunak CAD seperti AutoCAD, SolidWorks, dan Fusion 360 untuk merancang komponen mekanik dan sistem secara detail.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://formsubmit.co/habibfs439@gmail.com" method="POST">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Habib Abdul Wahhab</p>
+    </footer>
+    <script>
+        feather.replace();
+      </script>
+      <script src="script.js"></script>
+</body>
+</html>
+
